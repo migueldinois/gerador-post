@@ -33,6 +33,7 @@ header {
 }
 
 
+
 /* Formulariio */
 
 
@@ -50,6 +51,7 @@ header {
     padding: 20px;
     color: white;
     font-family: "Inter";
+    margin-bottom: 10px;
 }
 
 input {
@@ -59,8 +61,53 @@ input {
     margin-bottom: 10px;
 }
 
-.container-form > p {
-    margin-bottom: 10px;
+p, h1{ 
+    display: flex;
+}
+
+/* Post */
+.container-post {
+    display: flex;
+    background-color: black;
+    width: 500px;
+    height: 40vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+img {
+    width: 50px;
+    display: flex;
+}
+
+.container-post p {
+    color: gray;
+    font-family: "Inter";
+    font-size: 14px;
+}
+
+.content-post p {
+    color: white;
+    
+}
+
+.container-post h1 {
+    color: white;
+    font-family: "Inter";
+    font-size: 18px;
+}
+
+.container-post img {
+    border-radius: 100px;
+    background-color: white;
+    display: flex;
+    margin-right: 20px;
 }
 
 
