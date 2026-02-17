@@ -40,5 +40,5 @@ inputFotoDePerfil.addEventListener('input', () => {
 })
 
 inputDataPost.addEventListener('input', () => {
-
+    dataPost.innerText = inputDataPost.value
 })
